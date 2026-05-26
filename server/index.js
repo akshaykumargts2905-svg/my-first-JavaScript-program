@@ -4,3 +4,7 @@ const isodd = require("./module/isodd");
 isodd(5);
 const prime = require("./module/prime");
 prime(7);
+const M = require("./module/all");
+M.feven(16);
+M.fodd(17);
+M.fprime(19);
